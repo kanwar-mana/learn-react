@@ -14,7 +14,7 @@ function App() {
   let btn=<button>Kanwer</button>
   return (
     <>
-      <h1 className="bg-red-700 rounded-xl p-4 mb-4">Kanwer Abdull Rahman</h1>
+      <h1 className="bg-red-700 rounded-xl flex justify-end p-4 mb-4">Kanwer Abdull Rahman</h1>
       {/* <Cards channels="Kanwer" obj={somObj} newAr={arr}/> */}
 
       <Cards h1="Soon" />
