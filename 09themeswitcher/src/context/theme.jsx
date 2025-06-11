@@ -6,7 +6,7 @@ export const ThemeContext = createContext({
   darkTheme: () => {},
 });
 
-export const ThemeProvider = ThemeContext.Provider;
+export const ThemeProvider = ThemeContext.Provider; // create provider wraper to give global variable to all child element
 
 export const useTheme = () => {
   return useContext(ThemeContext);
